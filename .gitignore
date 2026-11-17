@@ -1,0 +1,23 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Configuración local y secretos
+.env
+.env.*
+!.env.example
+
+# Caché de fuentes (generada durante la ejecución)
+cache/
+
+# Archivos de sistema y editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# IMPORTANTE: no ignorar salidas/; los informes de ejemplo se subirán a GitHub.
